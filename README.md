@@ -5,8 +5,8 @@ This is a landing page for a fictitious digital agency called "A+Studio", built 
 ## Features
 1. Responsive design for optimal viewing on any device
 2. Customizable layout and components to fit the needs of any business
-3. Easy integration with APIs and backend services
-4. Fast builds and instant feedback during development with Vite
+3. Fast builds and instant feedback during development with Vite
+4. Using only plain CSS with no CSS Frameworks dependencies
 
 ## Built With
 This landing page was built using the following technologies:

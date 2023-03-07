@@ -1,0 +1,8 @@
+export {default as Navbar} from './navbar/Navbar'
+export {default as Header} from './header/Header'
+export {default as Client} from './client/Client'
+export {default as Business} from './business/Business'
+export {default as AboutUs} from './about_us/AboutUs'
+export {default as Testimonial} from './testimonial/Testimonial'
+export {default as Newsletter} from './newsletter/Newsletter'
+export {default as Footer} from './footer/Footer'

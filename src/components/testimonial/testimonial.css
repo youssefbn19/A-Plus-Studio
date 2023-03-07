@@ -1,0 +1,88 @@
+.testimonial_container{
+    margin-top: 110px;
+}
+.testimonial_container h1,.testimonial_container> p{
+    text-align: center;
+}
+.testimonial_slider{
+    max-width: 415px;
+}
+
+.slick-dots li button:before{
+    color: var(--color-primary) !important;
+    font-size: 14px !important;
+}
+.slick-dots li{
+    margin: 0 !important;
+}
+.slick-dots {
+    display: flex !important;
+    gap: 14px;
+}
+.testimonial_content_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+.person_img_container {
+    max-width: 400px;
+    flex: 1;
+}
+.person_img_container img{
+    width: 100%;
+    min-width: 100px;
+}
+
+.people_img_container {
+    max-width: 300px;
+    flex: 1;
+}
+.people_img_container img{
+    width: 100%;
+    min-width: 100px;
+}
+
+@media screen and (max-width:1024px) {
+.testimonial_slider{
+    max-width: 40%;
+}
+.testimonial_content_container{
+    margin-top: 50px;
+}
+}
+
+
+@media screen and (max-width:768px) {
+.testimonial_content_container{
+   flex-wrap: wrap !important;
+  justify-content: center;
+  gap: 0px;
+}
+.testimonial_slider{
+    max-width: 60%;
+}
+.people_img_container{
+    display: none;
+}
+.person_img_container {
+    max-width: 250px;
+}
+
+.slick-dots li button:before{
+    color: var(--color-primary) !important;
+    font-size: 12px !important;
+}
+.testimonial_content_container{
+    margin-top: 40px;
+}
+}
+@media screen and (max-width:425px) {
+.testimonial_slider{
+    max-width: 100%;
+}
+.testimonial_content_container{
+    margin-top: 20px;
+}
+}

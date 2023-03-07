@@ -1,0 +1,119 @@
+.section_margin{
+    margin: 0 120px;
+}
+.section_padding{
+    padding: 0 120px;
+}
+a{
+    text-decoration: none;
+    color: var(--text-primary)
+}
+h1{
+    color: var(--text-primary);
+    font-size: 36px;
+    line-height: 49px;
+    margin:0;
+}
+p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--text-secondary);
+}
+.btn_primary{
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    background: var(--color-primary);
+    color: white;
+    border-radius: 60px;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.065em;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+ul{
+    margin: 0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+.slide-left {
+	-webkit-animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+
+@media screen and (max-width:1024px) {
+    .section_margin{
+        margin: 0 60px;
+    }
+    .section_padding{
+        padding: 0 60px;
+    }
+    h1{
+        font-size: 36px;
+        line-height: 39px;
+    }
+    p{
+    font-size: 14px;
+    }
+    .btn_primary{
+    padding: 12px 24px;
+    font-size: 14px;
+    line-height: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    .section_margin{
+        margin: 0 40px;
+    }
+    .section_padding{
+        padding: 0 40px;
+    }
+    h1{
+        font-size: 28px;
+        line-height: auto;
+    }
+}
+@media screen and (max-width:425px) {
+    .section_margin{
+        margin: 0 20px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .btn_primary{
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 18px;
+    }
+}
+
+

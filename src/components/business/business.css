@@ -1,0 +1,103 @@
+.business_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 80px;
+}
+.business_bg{
+    background: url('../../assets/about_us_bg-min.jpg') no-repeat center center;
+   
+}
+.business_content{
+    max-width: 390px;
+    flex:1;
+}
+.business_content p{
+    margin-top: 30px;
+}
+
+.business_cards_container{
+    flex:1.8;
+    min-height: 868px;
+    max-width: 650px;
+    gap:30px;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+.business_card{
+    width: 46%;
+    height: 400px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+.business_card h3{
+    font-size: 24px;
+    line-height: 30px;
+    margin: 30px 0px 26px
+}
+.business_card p{
+    margin: 0px;
+}
+
+
+@media screen and (max-width:1024px) {
+
+    .business_card{
+        height: 380px;
+    }
+    .business_card h3{
+        font-size: 20px;
+        line-height: 26px;
+        margin: 26px 0px 22px
+    }
+    .business_card img{
+        width: 80px;
+        height: auto;
+    }
+}
+@media screen and (max-width:768px) {
+    .business_container{
+        flex-direction: column;
+        align-items: start;
+    }
+    .business_cards_container{
+        gap: 15px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        align-content: flex-start;
+    }
+    .business_card{
+        width:48%;
+    }
+     .business_card h3{
+        font-size: 18px;
+        line-height: 24px;
+        margin: 24px 0px 20px
+    }
+}
+@media screen and (max-width:425px) {
+    .business_cards_container{
+        min-height: 1300px;
+    }
+    .business_card{
+        width:300px;
+        height: 300px;
+
+    }
+    .business_card h3{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 24px 0px 20px
+    }
+}
